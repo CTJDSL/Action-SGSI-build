@@ -15,7 +15,7 @@ apps_dir="
 　　EngSpecialTest
 　　Galaxy4
 　　Hangouts
-　　HoloSpiralWallpaper
+   HoloSpiralWallpaper
 　　LiveWallpapersPicker
 　　LiveWallpapers
 　　LogKitSdService

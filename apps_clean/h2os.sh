@@ -2,4 +2,103 @@
 
 LOCALDIR=`cd "$( dirname $0 )" && pwd`
 cd $LOCALDIR
+systemdir=$1
 
+apps_dir="
+　　/system/app/AntHalService
+　　/system/app/BasicDreams
+　　/system/app/BookmarkProvider
+　　/system/app/BTtestmode
+　　/system/app/Drive
+　　/system/app/DivesIconPack
+　　/system/app/DMAgent
+　　/system/app/EngSpecialTest
+　　/system/app/Galaxy4
+　　/system/app/Hangouts
+　　/system/app/HoloSpiralWallpaper
+　　/system/app/LiveWallpapersPicker
+　　/system/app/LiveWallpapers
+　　/system/app/LogKitSdService
+　　/system/app/Maps
+　　/system/app/Music
+　　/system/app/Music2
+　　/system/app/NoiseField
+　　/system/app/NFCTestMode
+　　/system/app/OemAutoTestServer
+　　/system/app/OEMLogKit
+　　/system/app/OpenWnn
+　　/system/app/PartnerBookmarksProvider
+　　/system/app/PhaseBeam
+　　/system/app/Protips
+　　/system/app/RifonIconPack
+　　/system/app/SensorTestTool
+　　/system/app/SwiftKey
+　　/system/app/SwiftKeyFactorySettings
+　　/system/app/TimeService
+　　/system/app/Videos
+　　/system/app/WifiRfTestApk
+　　/system/com.touchtype
+　　/system/app/OPBugReport_Complete
+　　/system/app/OPBugReport
+　　/system/priv-app/CalendarProvider
+　　/system/priv-app/SetupWizard
+　　/system/priv-app/OnePlusWizard
+　　/system/priv-app/OPDeviceManager
+　　/system/priv-app/OPDeviceManagerProvider
+　　/system/priv-app/Tag
+　　/system/priv-app/Velvet
+　　/system/priv-app/SecureSampleAuthservice
+　　/system/priv-app/OnePlusOta
+　　/system/priv-app/OPDeviceManager
+　　/system/priv-app/OPDeviceManagerProvider
+　　/system/bin/oemlogkit
+　　/system/bin/fmfactorytest
+　　/system/bin/fmfactorytestserver
+　　/system/bin/fmfactorytest
+　　/system/bin/WifiLogger_app
+　　/system/bin/oemwvtest
+　　/system/bin/mm-qjpeg-dec-test
+　　/system/bin/mm-qjpeg-enc-test
+　　/system/bin/mm-qomx-idec-test
+　　/system/bin/mm-qomx-ienc-test
+　　/system/bin/mm-vidc-omx-test
+　　/system/bin/qjpeg-dma-test
+　　/system/bin/fpc_fingerprint_hal-test
+　　/system/bin/msm-vidc-test
+　　/system/bin/sns_ar_testapp
+　　/system/bin/sns_cm_conc_test
+　　/system/bin/sns_cm_test
+　　/system/bin/sns_file_test
+　　/system/bin/sns_oem_test
+　　/system/bin/sns_smr_loopback_test
+　　/system/bin/test_diag
+　　/system/bin/test_module_pproc
+　　/system/bin/test_bet_8996
+　　/system/bin/vl6180_test
+　　/system/bin/fidodaemon
+　　/system/bin/usf_tester
+　　/system/bin/qseecom_sample_client
+　　/system/bin/qseecom_security_test
+　　/system/bin/secure_camera_sample_client
+　　/system/bin/secure_ui_sample_client
+　　/system/bin/param_test
+　　/system/bin/mct-unit-test-app
+　　/system/bin/bugreport
+　　/system/tts
+　　/system/com.touchtype
+　　/system/etc/recovery-resource.dat
+　　/system/recovery-from-boot.bak
+　　/system/etc/usb_drivers.iso
+　　/system/media/oneplus_ftm_test.wav
+　　/system/etc/oneplus_ftm_test.wav
+　　/system/vendor/etc/in_apps
+　　/system/vendor/etc/RIDL
+　　/system/vendor/bin/RIDLClient.exe
+　　/system/vendor/bin/sampleauthdaemon
+"
+
+for delete_dir in $apps_dir ;do
+  find $systemdir -type d -name "$delete_dir" | xargs rm -rf
+done
+
+rm -rf $1/data-app/*

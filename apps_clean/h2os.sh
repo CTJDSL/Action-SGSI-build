@@ -5,96 +5,96 @@ cd $LOCALDIR
 systemdir=$1
 
 apps_dir="
-　　　　AntHalService
-　　BasicDreams
-　　BookmarkProvider
-　　BTtestmode
-　　Drive
-　　DivesIconPack
-　　DMAgent
-　　EngSpecialTest
-　　Galaxy4
-　　Hangouts
-　　HoloSpiralWallpaper
-　　LiveWallpapersPicker
-　　LiveWallpapers
-　　LogKitSdService
-　　Maps
-　　Music
-　　Music2
-　　NoiseField
-　　NFCTestMode
-　　OemAutoTestServer
-　　OEMLogKit
-　　OpenWnn
-　　PartnerBookmarksProvider
-　　PhaseBeam
-　　Protips
-　　RifonIconPack
-　　SensorTestTool
-　　SwiftKey
-　　SwiftKeyFactorySettings
-　　TimeService
-　　Videos
-　　WifiRfTestApk
-　　com.touchtype
-　　OPBugReport_Complete
-　　OPBugReport
-　　CalendarProvider
-　　SetupWizard
-　　OnePlusWizard
-　　OPDeviceManager
-　　OPDeviceManagerProvider
-　　Tag
-　　Velvet
-　　SecureSampleAuthservice
-　　OnePlusOta
-　　OPDeviceManager
-　　OPDeviceManagerProvider
-　　oemlogkit
-　　fmfactorytest
-　　fmfactorytestserver
-　　fmfactorytest
-　　WifiLogger_app
-　　oemwvtest
-　　mm-qjpeg-dec-test
-　　mm-qjpeg-enc-test
-　　mm-qomx-idec-test
-　　mm-qomx-ienc-test
-　　mm-vidc-omx-test
-　　qjpeg-dma-test
-　　fpc_fingerprint_hal-test
-　　msm-vidc-test
-　　sns_ar_testapp
-　　sns_cm_conc_test
-　　sns_cm_test
-　　sns_file_test
-　　sns_oem_test
-　　sns_smr_loopback_test
-　　test_diag
-　　test_module_pproc
-　　test_bet_8996
-　　vl6180_test
-　　fidodaemon
-　　usf_tester
-　　qseecom_sample_client
-　　qseecom_security_test
-　　secure_camera_sample_client
-　　secure_ui_sample_client
-　　param_test
-　　mct-unit-test-app
-　　bugreport
-　　tts
-　　com.touchtype
-　　recovery-resource.dat
-　　recovery-from-boot.bak
-　　usb_drivers.iso
-　　oneplus_ftm_test.wav
-　　oneplus_ftm_test.wav
-　　in_apps
-   RIDL
-   RIDLClient.exe
-   sampleauthdaemon
+AntHalService
+BasicDreams
+BookmarkProvider
+BTtestmode
+Drive
+DivesIconPack
+DMAgent
+EngSpecialTest
+Galaxy4
+Hangouts
+HoloSpiralWallpaper
+LiveWallpapersPicker
+LiveWallpapers
+LogKitSdService
+Maps
+Music
+Music2
+NoiseField
+NFCTestMode
+OemAutoTestServer
+OEMLogKit
+OpenWnn
+PartnerBookmarksProvider
+PhaseBeam
+Protips
+RifonIconPack
+SensorTestTool
+SwiftKey
+SwiftKeyFactorySettings
+TimeService
+Videos
+WifiRfTestApk
+com.touchtype
+OPBugReport_Complete
+OPBugReport
+CalendarProvider
+SetupWizard
+OnePlusWizard
+OPDeviceManager
+OPDeviceManagerProvider
+Tag
+Velvet
+SecureSampleAuthservice
+OnePlusOta
+OPDeviceManager
+OPDeviceManagerProvider
+oemlogkit
+fmfactorytest
+fmfactorytestserver
+fmfactorytest
+WifiLogger_app
+oemwvtest
+mm-qjpeg-dec-test
+mm-qjpeg-enc-test
+mm-qomx-idec-test
+mm-qomx-ienc-test
+mm-vidc-omx-test
+qjpeg-dma-test
+fpc_fingerprint_hal-test
+msm-vidc-test
+sns_ar_testapp
+sns_cm_conc_test
+sns_cm_test
+sns_file_test
+sns_oem_test
+sns_smr_loopback_test
+test_diag
+test_module_pproc
+test_bet_8996
+vl6180_test
+fidodaemon
+usf_tester
+qseecom_sample_client
+qseecom_security_test
+secure_camera_sample_client
+secure_ui_sample_client
+param_test
+mct-unit-test-app
+bugreport
+tts
+com.touchtype
+recovery-resource.dat
+recovery-from-boot.bak
+usb_drivers.iso
+oneplus_ftm_test.wav
+oneplus_ftm_test.wav
+in_apps
+RIDL
+RIDLClient.exe
+sampleauthdaemon
 "
 
 for delete_dir in $apps_dir ;do

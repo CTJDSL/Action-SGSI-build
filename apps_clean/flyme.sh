@@ -90,6 +90,23 @@ htmlviewer
 calllogbackup
 uimremoteclient
 ant.server
+MzUpdate
+WPS_Meizu_Version
+DataMigration
+PerfUI
+Reader
+RemoteCooperation
+VideoClips
+DesktopBackup
+FamilyGuard
+Phonesky_CN
+DirectService
+EasyLauncher
+FlymeLab
+FlymeSoundRecorder
+MeizuPay
+PhotoService
+Search
 "
 for delete_dir in $apps_dir ;do
   find $systemdir -type d -name "$delete_dir" | xargs rm -rf

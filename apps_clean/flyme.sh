@@ -19,7 +19,6 @@ mms
 mycontacts 
 directservice
 compaign
-assistant
 wallet
 feedback
 android.mms 
@@ -34,7 +33,6 @@ incallui
 inputdevices 
 sdkstage
 bips
-lockscreen
 xdivert
 musicfx musicfx
 telecom
@@ -48,7 +46,6 @@ platformfx dateservice
 remotecooperation
 telephonyengineermode
 smspush 
-voiceassistant
 softsim
 store
 easylauncher
